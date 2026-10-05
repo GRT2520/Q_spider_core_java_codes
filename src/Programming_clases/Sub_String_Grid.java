@@ -26,3 +26,26 @@ public class Sub_String_Grid {
         return true;
     }
 }
+
+/*
+import java.util.Scanner;
+
+public class PalindromeCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a word: ");
+        String word = scanner.nextLine();
+
+        // Reverse the string using StringBuilder
+        String reversed = new StringBuilder(word).reverse().toString();
+
+        // Check if original equals reversed
+        if (word.equalsIgnoreCase(reversed)) {
+            System.out.println("\"" + word + "\" is a Palindrome.");
+        } else {
+            System.out.println("\""```java
+            System.out.println("\"" + word + "\" is NOT a Palindrome.");
+        }
+    }
+}
+ */
