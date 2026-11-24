@@ -22,4 +22,18 @@ public class Duck_Number_again {
             System.out.println("Not a Duck Number");
         }
     }
+
+    public static boolean isDuckNumber(String num) {
+        // Must not start with 0
+        if (num.charAt(0) == '0') {
+            return false;
+        }
+        // Must contain at least one 0
+        for (int i = 0; i < num.length(); i++) {
+            if (num.charAt(i) == '0') {
+                return true;
+            }
+        }
+        return false;
+    }
 }
